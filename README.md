@@ -1,2 +1,2 @@
-# valildity-take-home
+# validity-take-home
 take home assessment for validity
