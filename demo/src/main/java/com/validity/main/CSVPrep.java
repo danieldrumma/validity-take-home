@@ -12,7 +12,7 @@ public class CSVPrep{
     public static void main(String[] args) throws IOException {
         // open file input stream
         BufferedReader reader = new BufferedReader(new FileReader(
-                "employees.csv"));
+                "normal.csv"));
 
         // read file line by line
         String line = null;
