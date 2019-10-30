@@ -11,6 +11,6 @@ com.validity.main.ValidityTakeHomeApplication as the Main class
 
 validity-take-home\Validity take home as the working directory
 
-Once successfully built, you can run application by running the configuration inIntelliJ IDEA or by using mvn spring-boot:run
+Once successfully built, you can run the application by running the configuration IntelliJ IDEA or by using mvn spring-boot:run
 
 Go to localhost:8080 to see the application running
