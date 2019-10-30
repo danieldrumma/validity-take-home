@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
 </head>
 <body>
-    <p>Upload file below:</p>
+    <h1>Validity Take Home Assessment</h1>
+    <h2>Potential Duplicates</h2>
+    <ul>
+        <li th:each="record : ${dups}" th:text="${record}"></li>
+    </ul>
+
+    <h2>None Duplicates</h2>
+
+    <ul>
+        <li th:each="record : ${non_dups}" th:text="${record}"></li>
+    </ul>
 </body>
 </html>
